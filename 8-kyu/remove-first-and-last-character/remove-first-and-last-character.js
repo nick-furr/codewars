@@ -1,9 +1,7 @@
-function removeChar(str){
-  if (str.length <= 2) {
-    return "";
-  }
-  return str.slice(1, str.length - 1);
+function removeChar(str) {
+  return str.slice(1, -1);
 }
+​
 ​
 ​
 ​
